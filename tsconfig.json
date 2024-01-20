@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "lib": ["es2017"],
+    "allowJs": true /* Report errors in .js files. */,
+    "jsx": "preserve" /* Do not emit comments to output. */,
+    "noEmit": true /* Provide full support for iterables in 'for-of', spread, and destructuring when targeting 'ES5' or 'ES3'. */,
+    "isolatedModules": true,
+    "strict": true,
+    "moduleResolution": "node", // ype declaration files to be included in compilation. */
+    "allowSyntheticDefaultImports": true /* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */,
+    "esModuleInterop": true /* Do not resolve the real path of symlinks. */,
+    "skipLibCheck": false /* Skip type checking of declaration files. */,
+    "resolveJsonModule": true /* Enables experimental support for emitting type metadata for decorators. */,
+    "forceConsistentCasingInFileNames": true,
+    "incremental": true
+  },
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+}
